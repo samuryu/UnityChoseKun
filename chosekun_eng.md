@@ -79,7 +79,7 @@ Place the entire contents of this repository under the Asset folder of the Unity
 ### Features
 #### PlayerViewer
 Viewer that plays the content displayed on the actual device in UnityEditor.
-![img](docs/PlayerView.jpg)
+![img](docs/PlayerView.png)
 
 #### Launch Method
 From Menu, choose Window->UnityChoseKun->Player View. The PlayerView Window shows up.
