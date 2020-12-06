@@ -125,51 +125,93 @@ You can seek the recorded result.
 
 ##### Reload
 
+Analyzes scene informartion of the application that are running on actual device, then extract is as a Hierachy Tree.
+The first step is to run Reload to gather information of the scene.
+It'll take some time to Reload if the scene holds tens of thousands of GameObjects.
 
+You could change the parent-child relationship of GameObjectsthe same way as in the Editor's Hierarchy does.
+Also can generate GameObjects or add basic Components with the right-click modal dialog.
 
-Analyzes the Scene information of the application running on a real machine and expands it as a Hierarchy Tree.
-To obtain and analyze the information, you need to run Inspector View->Inspector->Pull.
+*NOTE* </br>
+Adding a Component that is not included in the application will cause an error.
 
-#### InspectorViewer
-You can check and edit the contents of Screen, Time and GameObject Components(Camera, Light) of the applications running on the device.
+#### Player Inspector
 
-###### How to launch
+Windows that allows you to edit contens inside the class of UnityEngine that are running on actual device.
 
-From Menu, choose Window->UTJ->UnityChose-Kun->Inspecter to launch it.
+##### Inspector
 
-###### Connect To
-Specify the device you want to connect to. The connection mechanism is shared with UnityProfiler, so when you switch from one device to the other, the other device will be switched as well.
+Edits the content of selected GameObject's Component in Player Hierarchy.
+Currently, there are few components are editable. But enable can be editable for almost any components.   
 
-###### Inspector/Time/Component
-Toggle the classes displayed in the Inspecter View
-
-#### Inspector View(Inspector)
 ![img](docs/InspectorView.jpg)
 
-Displays the information of the selected GameObject from the Hierarchy View.
+- [Connect To] : Select the device you wish to connectc. It's shared with the Profiler
+- [Add Component] : Add Component to GameObject (Currently in progress).
 
-###### Pull.
-Analyzes the Scene information of an application running on a real device and expands it to Hierarchy View.
+##### Component
 
-###### Push
-Writes the contents of the selected GameObjects back to the actual device.
+![img](docs/Inspector_Component.jpg)
+Counts the type and number of components that exists in a scene.
+Components that are not supported by this tool are counted in the Specified Class.
 
-#### InspectorViewer(Screen)
-![img](docs/Inspector_Screen.jpg)
+##### Texture
 
-Display and edit the Screen class.
+![imag](docs/Inspector_Texture.png)
 
-###### Pull.
-Obtain Screen Class content of an application running on a real device.
+Lists the textures that are referenced in a scene as well as textures that are included in resources runned by an app.
 
-###### Push
-Feed back the edited contents to the application running on the device.
+- [Pull] : Obtain list of references form GameObjects that are in the scene and textures included in resources.
+  
+※*You need to run the Pull command before changing the Texture that Material is referencing*
 
-##### InspectorViewer(Time)
+##### Shader
+
+![img](docs/Inspector_Shader.png)
+
+List of Shader that are included in Resources and scene of the app running on actual device.
+
+- [Pull] : Obtain list of references form GameObjects that are in the scene and shaders included in resources.
+
+※*You need to run the Pull command before changing the Sahder that Material is referencing。*
+
+##### Screen
+
+![img](docs/Inspector_Screen.png)
+
+Edit the static members of the Screen Class.
+
+- [Pull] : Get the static members of the Screen Class.
+- [Push] : Edited information will show on the actual device.
+
+##### Time
+
 ![img](docs/Inspector_Time.jpg)
 
-###### Pull.
-Obtain Time Class content of an application running on a real device.
+Edit the static members of the Time Class.
 
-###### Push.
-The edited content is fed back to the application running on the actual device.
+- [Pull] : Get the static members of the Time Class.
+- [Push] : Edited information will show on the actual device.
+
+##### Application
+
+![img](docs/Inspector_Application.png)
+
+Edit the static members of the Application Class.
+Also could run Application.Quit().
+
+- [Pull] : Get the static members of the Application Class.
+- [Push] : Edited information will show on the actual device.
+- [Quit] : Run Application.Quite().
+
+##### Android
+
+![img](docs/Inspector_AndroidView.jpg)
+You can edit the Android device's specific features.
+
+##### QualitySettings
+
+![img](docs/QualitySettingsView.jpg)
+You can edit QualitySetting.
+
+Thats all!
