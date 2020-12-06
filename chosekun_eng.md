@@ -152,6 +152,7 @@ Currently, there are few components are editable. But enable can be editable for
 ##### Component
 
 ![img](docs/Inspector_Component.jpg)
+
 Counts the type and number of components that exists in a scene.
 Components that are not supported by this tool are counted in the Specified Class.
 
