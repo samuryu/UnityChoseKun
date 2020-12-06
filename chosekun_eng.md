@@ -3,9 +3,9 @@
 
 Tool used to control application built with Unity running on a device (Switch,Android,iOS,etc) from UnityEditor.
 
-Ex1.Can adjust the component inside the application that are running
+Can adjust the component inside the application that are running:
 ![img](docs/UnityChoseKunDemo02.gif)
-Ex2.Could show UnityEditor from the device's screen
+Could show UnityEditor from the device's screen:
 ![img](docs/UnityChoseKunDemo03.gif)
 
 ## What you can do with this project
