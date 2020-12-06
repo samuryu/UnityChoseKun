@@ -207,11 +207,13 @@ Also could run Application.Quit().
 ##### Android
 
 ![img](docs/Inspector_AndroidView.jpg)
+
 You can edit the Android device's specific features.
 
 ##### QualitySettings
 
 ![img](docs/QualitySettingsView.jpg)
+
 You can edit QualitySetting.
 
 Thats all!
