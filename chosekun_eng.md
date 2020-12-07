@@ -60,9 +60,10 @@ You can make adjustments on the following components
   - [Vector3](https://docs.unity3d.com/ja/ScriptReference/Vector3.html)
   - [Vector4](https://docs.unity3d.com/ja/ScriptReference/Vector4.html)
 
-## Notes
+## Caution
+- Will not take any responsibility for any damage that are caused by using this tool.
 - Cannot be used with Script Debugging.
-- When Player View is enabled, the device becomes __hot__. *
+- When Player View is enabled, the device becomes __hot__. 
 - Material is only for checking the content, not writing back the edited content.
 - In order to change the referenced Material's Shader/Texture, you need to Pull them first.
 - Following functions cannot be made in Unity2018:
