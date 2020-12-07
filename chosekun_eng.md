@@ -49,7 +49,6 @@ You can make adjustments on the following components
   - [MeshRenderer](https://docs.unity3d.com/ScriptReference/MeshRenderer.html)
   - [MonoBehavior](https://docs.unity3d.com/ScriptReference/MonoBehaviour.html)
   - [Object](https://docs.unity3d.com/ScriptReference/Object.html)
-  - [Renderer](https://docs.unity3d.com/ScriptReference/Renderer.html)
   - [ParticleSystem](https://docs.unity3d.com/ScriptReference/ParticleSystem.html)
   - [PhysicMaterial](https://docs.unity3d.com/ScriptReference/PhysicMaterial.html)
   - [Quartanion](https://docs.unity3d.com/ScriptReference/Quaternion.html)
