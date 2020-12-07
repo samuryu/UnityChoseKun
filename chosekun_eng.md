@@ -37,7 +37,7 @@ You can make adjustments on the following components
 - [Shader](https://docs.unity3d.com/ScriptReference/Shader.html)
 - [Texture](https://docs.unity3d.com/ScriptReference/Texture.html)
 - [QualitySettings](https://docs.unity3d.com/ScriptReference/QualitySettings.html)
-- [Component](docs.unity3d.com/ja/ScriptReference/Component.html)
+- [Component](https://docs.unity3d.com/ScriptReference/Component.html)
   - [Animator](https://docs.unity3d.com/ScriptReference/Animator.html)
   - [Behaviour](https://docs.unity3d.com/current/ScriptReference/Behaviour.html)
   - [Bounds](https://docs.unity3d.com/current/ScriptReference/Bounds.html)
