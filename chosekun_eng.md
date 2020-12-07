@@ -223,3 +223,5 @@ You can edit the Android device's specific features.
 You can edit QualitySetting.
 
 ## Thats all! Appreciate your comments and feedback!
+
+## Katsumasa Kimura: katsumasa@unity3d.com
