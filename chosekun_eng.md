@@ -46,7 +46,7 @@ You can make adjustments on the following components
   - [Light](https://docs.unity3d.com/ScriptReference/Light.html)
   - [Material](https://docs.unity3d.com/ScriptReference/Material.html)
   - [Matrix4x4](https://docs.unity3d.com/ScriptReference/Matrix4x4.html)
-  - [MeshRenderer](https://docs.unity3d.com/ScriptReference/Renderer.html)
+  - [MeshRenderer](https://docs.unity3d.com/ScriptReference/MeshRenderer.html)
   - [MonoBehavior](https://docs.unity3d.com/ScriptReference/MonoBehaviour.html)
   - [Object](https://docs.unity3d.com/ScriptReference/Object.html)
   - [Renderer](https://docs.unity3d.com/ScriptReference/Renderer.html)
