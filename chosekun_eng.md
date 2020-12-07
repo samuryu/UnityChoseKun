@@ -224,4 +224,4 @@ You can edit QualitySetting.
 
 ## Thats all! Appreciate your comments and feedback!
 
-## Katsumasa Kimura: katsumasa@unity3d.com
+__Katsumasa Kimura: katsumasa@unity3d.com__
