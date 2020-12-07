@@ -1,4 +1,7 @@
 # UnityChoseKun
+## Introduction
+Have you ever experienced time being wasted to complete a build every time for a small setting changed in the GamObject? This tool not only allows to make changes to your GameObject without rebuilding every time, but also can while the actual device is running.    
+
 ## Overview
 
 Tool used to control application built with Unity running on a real device (Switch,Android,iOS,etc) from UnityEditor.
