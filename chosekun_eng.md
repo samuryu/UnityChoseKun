@@ -63,7 +63,7 @@ You can make adjustments on the following components
 ## Caution
 - Will not take any responsibility for any damage that are caused by using this tool.
 - Cannot be used with Script Debugging.
-- When Player View is enabled, the device becomes __hot__. 
+- Enabling the Player View makes the device __hot__. The ammount of CPU resources being used depends on the screen resolution.  Before playing the PlayerView, it is recommended to change the screen resolution from Screen in Player Inspector.  In Pixel4XL's case, the CPU resources were'nt used at all when the screen resolution was reduced to 604x288.
 - Material is only for checking the content, not writing back the edited content.
 - In order to change the referenced Material's Shader/Texture, you need to Pull them first.
 - Following functions cannot be made in Unity2018:
