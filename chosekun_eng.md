@@ -100,7 +100,7 @@ Specify the device you want to connect. The connection mechanism is shared with 
 ![img](docs/SaveFolderIcon.png)　Specify the path of the recording results</br>
 
 ###### Enable Async GPU Readback
-If you check this box, you will be able to use [Async GPU Readback](https://docs.unity3d.com/ja/2018.4/ScriptReference/Rendering.AsyncGPUReadback.html) to process images. This may reduce the load of the MainTharead.
+If you check this box, you will be able to use [Async GPU Readback](https://docs.unity3d.com/2018.4/Documentation/ScriptReference/Rendering.AsyncGPUReadback.html) to process images. This may reduce the load of the MainTharead.
 
 ###### Reflesh Interval
 Specify the process interval images being transfered.
