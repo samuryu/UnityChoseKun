@@ -5,6 +5,7 @@ Tool used to control application built with Unity running on a real device (Swit
 
 Can adjust the component inside the application that are running on the actual device:
 ![img](docs/UnityChoseKunDemo02.gif)
+
 Could show UnityEditor from the device's screen:
 ![img](docs/UnityChoseKunDemo03.gif)
 
