@@ -222,4 +222,4 @@ You can edit the Android device's specific features.
 
 You can edit QualitySetting.
 
-Thats all!
+## Thats all! Appreciate your comments and feedback!
