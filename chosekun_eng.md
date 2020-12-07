@@ -11,13 +11,13 @@ Could show UnityEditor from the device's screen:
 
 ## What you can do with this project
 The following tasks can be performed in the UnityEditor
-- Display the screen rendered on the device (PlayerView).
+- Display the screen rendered on the actual device (PlayerView).
 - Display hierarchy of the scene being played in the actual device (Hierarchy View)
 - Reflect the changes made to the selected GameObject's component to the actual device (Inspector View).
 
 ## Operating Environment
 - Unity version
-  - Unity2018.4.26f1 (Some limited functions)
+  - Unity2018.4.26f1 (Some functions are limited)
   - Unity2019.4.11f1
 - Platform
   - Android
