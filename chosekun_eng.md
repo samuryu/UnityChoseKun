@@ -78,7 +78,7 @@ Place the entire contents of this repository under the Asset folder of the Unity
 
 ### Building
 - Put [UnityChoseKun.prefab](https://github.com/katsumasa/UnityChoseKun/blob/master/Player/Prefabs/UnityChoseKun.prefab) in a Scene and build the app.
-- You must have the check box checked [Development Build Autoconnect Profiler](https://docs.unity3d.com/ja/current/Manual/BuildSettingsStandalone.html) when building.
+- You must have the check box checked [Development Build and Autoconnect Profiler](https://docs.unity3d.com/ja/current/Manual/BuildSettingsStandalone.html) when building.
 - You must specify IL2CPP [Scripting BackEnd](https://docs.unity3d.com/ja/2018.4/Manual/windowsstore-scriptingbackends.html).
 
 ### Features
