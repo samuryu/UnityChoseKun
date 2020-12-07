@@ -70,8 +70,8 @@ You can make adjustments on the following components
 - Material is only for checking the content, not writing back the edited content.
 - In order to change the referenced Material's Shader/Texture, you need to Pull them first.
 - Following functions cannot be made in Unity2018:
- - Replace referenced texture.
- - Readback feature of PlayerView's Async GPU.
+  - Replace referenced texture.
+  - Readback feature of PlayerView's Async GPU.
 
 ## How to use
 Place the entire contents of this repository under the Asset folder of the UnityProject.
